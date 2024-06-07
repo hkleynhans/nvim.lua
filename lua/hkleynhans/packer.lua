@@ -64,6 +64,8 @@ return require("packer").startup(function (use)
 
   use "lervag/vimtex"
 
+  use "neomake/neomake"
+
   if is_bootstrap then
       require("packer").sync()
   end
