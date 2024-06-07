@@ -46,6 +46,9 @@ return require("packer").startup(function (use)
     run = ":TSUpdate"
   }
 
+  use { "junegunn/fzf" }
+  use { "junegunn/fzf.vim" }
+
   use "editorconfig/editorconfig-vim"
   use "morhetz/gruvbox"
   use "navarasu/onedark.nvim" -- Theme inspired by Atom

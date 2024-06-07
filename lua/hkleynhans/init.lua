@@ -1,3 +1,3 @@
-require("hkleynhans.packer")
-require("hkleynhans.remap")
 require("hkleynhans.set")
+require("hkleynhans.lazy_init")
+require("hkleynhans.remap")
